@@ -1,0 +1,47 @@
+User-agent: * 
+
+Disallow: /js/custom.js
+Disallow: /images/usuario.png
+Disallow: /images/curso3.jpg
+Disallow: /course.html
+Disallow: /courses.html
+Disallow: /styles/main_styles.css
+Disallow: /plugins/greensock/TimelineMax.min.js
+Disallow: /contact.html
+Disallow: /plugins/parallax-js-master/parallax.min.js
+Disallow: /plugins/easing/easing.js
+Disallow: /styles/bootstrap4/bootstrap.min.css
+Disallow: /plugins/OwlCarousel2-2.2.1/owl.theme.default.css
+Disallow: /plugins/font-awesome-4.7.0/css/font-awesome.min.css
+Disallow: /plugins/scrollmagic/ScrollMagic.min.js
+Disallow: /plugins/OwlCarousel2-2.2.1/owl.carousel.css
+Disallow: /images/logo_aula.png
+Disallow: /images/curso2.jpg
+Disallow: /images/c3.jpg
+Disallow: /plugins/greensock/ScrollToPlugin.min.js
+Disallow: /about.html
+Disallow: /plugins/OwlCarousel2-2.2.1/owl.carousel.js
+Disallow: /styles/bootstrap4/bootstrap.min.js
+Disallow: /images/curso1.jpg
+Disallow: /styles/bootstrap4/popper.js
+Disallow: /styles/responsive.css
+Disallow: /plugins/greensock/TweenMax.min.js
+Disallow: /images/icon-chat.png
+Disallow: /js/jquery-3.2.1.min.js
+Disallow: /images/c2.jpg
+Disallow: /plugins/greensock/animation.gsap.min.js
+Disallow: /js/leer-mas.js
+Disallow: /plugins/OwlCarousel2-2.2.1/animate.css
+Disallow: /images/icon-website.png
+Disallow: /images/icon-calendario.png
+Disallow: /images/zoom.png
+Disallow: /images/laptop.png
+Disallow: /images/c1.jpg
+Disallow: /index.html
+Disallow: /js/clock.js
+Disallow: /images/tablet.png
+Disallow: /images/icon-profe.png
+
+Sitemap: https://www.aula-ec.com/sitemap.xml
+
+

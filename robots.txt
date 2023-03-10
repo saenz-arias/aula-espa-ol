@@ -1,0 +1,114 @@
+User-agent: *
+
+Disallow: /blog/wp-content/themes/trendy-news/assets/lib/fontawesome/css/all.min.css?ver=5.15.3
+Disallow: /blog/wp-content/themes/trendy-news/assets/css/responsive.css?ver=1.0.3
+Disallow: /blog/author/admin/
+Disallow: /blog/wp-content/themes/trendy-news/style.css?ver=1.0.3
+Disallow: /blog/wp-content/themes/trendy-news/assets/js/navigation.js?ver=1.0.3
+Disallow: /blog/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=6.3.5
+Disallow: /blog/cookie-policy-eu/
+Disallow: /blog/wp-content/fonts/342eb0ab8e6e31a3f54627f02bbe1410.css
+Disallow: /blog/wp-content/plugins/weglot/dist/css/front-css.css?ver=3.8.3
+Disallow: /blog/wp-content/plugins/weglot/dist/front-js.js?ver=3.8.3
+Disallow: /blog/wp-content/themes/trendy-news/assets/lib/slick/slick.css?ver=1.8.1
+Disallow: /blog/wp-content/themes/trendy-news/assets/lib/slick/slick.min.js?ver=1.8.1
+Disallow: /blog/wp-content/themes/trendy-news/assets/lib/waypoint/jquery.waypoint.min.js?ver=4.0.1
+Disallow: /blog/wp-content/plugins/weglot/app/styles/new-flags.css?ver=3.8.3
+Disallow: /blog/wp-content/themes/trendy-news/assets/lib/js-marquee/jquery.marquee.min.js?ver=1.6.0
+Disallow: /blog/2022/11/
+Disallow: /blog/wp-content/themes/trendy-news/assets/css/loader.css?ver=1.0.3
+Disallow: /blog/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=6.3.5
+Disallow: /blog/wp-content/themes/trendy-news/assets/css/main.css?ver=1.0.3
+Disallow: /blog/wp-content/themes/trendy-news/assets/js/theme.js?ver=1.0.3
+Disallow: /blog/privacy-policy/
+Disallow: /blog/wp-content/uploads/2022/11/banos-ecuador.png
+Disallow: /blog/page/2/
+Disallow: /blog/wp-content/uploads/2022/11/voluntariado.png
+Disallow: /blog/2022/11/20/
+Disallow: /blog/wp-content/uploads/2022/11/spanish-vs-french.png
+Disallow: /blog/wp-content/uploads/2022/11/abv-nepal.jpg
+Disallow: /blog/de/privacy-policy/
+Disallow: /blog/2022/11/page/2/
+Disallow: /blog/wp-content/uploads/2022/11/banos-kids.png
+Disallow: /blog/wp-content/uploads/2022/11/adriana.jpg
+Disallow: /blog/wp-content/uploads/2022/11/learn-spanish-fast.jpg
+Disallow: /blog/2022/11/25/
+Disallow: /blog/2022/
+Disallow: /blog/de/page/2/
+Disallow: /blog/2022/11/21/
+Disallow: /blog/wp-content/plugins/complianz-gdpr/assets/css/document.min.css?ver=6.3.5
+Disallow: /blog/2022/11/01/
+Disallow: /blog/wp-content/uploads/2022/11/volunteering-ecuador-abv.png
+Disallow: /blog/de/2022/11/
+Disallow: /blog/2022/11/29/
+Disallow: /blog/2022/11/22/
+Disallow: /blog/wp-content/uploads/2022/11/verbs-conjugation.jpg
+Disallow: /blog/de/cookie-policy-eu/
+Disallow: /blog/de/author/admin/
+Disallow: /blog/wp-content/uploads/2022/11/post-aula.png
+Disallow: /blog/author/admin/page/2/
+Disallow: /blog/wp-content/uploads/2022/11/learning-vocabulary.png
+Disallow: /blog/wp-content/uploads/2022/11/austrian-german.png
+Disallow: /images/usuario.png
+Disallow: /blog/2022/11/23/
+Disallow: /js/custom.js
+Disallow: /js/custom.js
+Disallow: /images/usuario.png
+Disallow: /images/curso3.jpg
+Disallow: /course.html
+Disallow: /courses.html
+Disallow: /styles/main_styles.css
+Disallow: /plugins/greensock/TimelineMax.min.js
+Disallow: /contact.html
+Disallow: /plugins/parallax-js-master/parallax.min.js
+Disallow: /plugins/easing/easing.js
+Disallow: /styles/bootstrap4/bootstrap.min.css
+Disallow: /plugins/OwlCarousel2-2.2.1/owl.theme.default.css
+Disallow: /plugins/font-awesome-4.7.0/css/font-awesome.min.css
+Disallow: /plugins/scrollmagic/ScrollMagic.min.js
+Disallow: /plugins/OwlCarousel2-2.2.1/owl.carousel.css
+Disallow: /images/logo_aula.png
+Disallow: /images/curso2.jpg
+Disallow: /images/c3.jpg
+Disallow: /plugins/greensock/ScrollToPlugin.min.js
+Disallow: /about.html
+Disallow: /plugins/OwlCarousel2-2.2.1/owl.carousel.js
+Disallow: /styles/bootstrap4/bootstrap.min.js
+Disallow: /images/curso1.jpg
+Disallow: /styles/bootstrap4/popper.js
+Disallow: /styles/responsive.css
+Disallow: /plugins/greensock/TweenMax.min.js
+Disallow: /images/icon-chat.png
+Disallow: /js/jquery-3.2.1.min.js
+Disallow: /images/c2.jpg
+Disallow: /plugins/greensock/animation.gsap.min.js
+Disallow: /js/leer-mas.js
+Disallow: /plugins/OwlCarousel2-2.2.1/animate.css
+Disallow: /images/icon-website.png
+Disallow: /images/icon-calendario.png
+Disallow: /images/zoom.png
+Disallow: /images/laptop.png
+Disallow: /images/c1.jpg
+Disallow: /index.html
+Disallow: /js/clock.js
+Disallow: /images/tablet.png
+Disallow: /images/icon-profe.png
+Disallow: /blog/de/2022/11/25/
+Disallow: /blog/de/2022/11/29/
+Disallow: /blog/de/2022/11/21/
+Disallow: /blog/de/2022/page/2/
+Disallow: /blog/category/travel/
+Disallow: /blog/category/learn-spanish/
+Disallow: /blog/contacto/
+Disallow: /blog/category/volunteering/
+Disallow: /blog/category/languages/
+
+
+
+Sitemap: https://www.aula-ec.com/sitemap.xml
+
+
+
+
+
+
