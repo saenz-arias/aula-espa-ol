@@ -112,6 +112,7 @@
 									<li><a href="#upcoming">Upcoming</a></li>
 									<li><a href="https://aula-ec.com/blog/">Blog</a></li>
 									<li><a href="#contact">Contact</a></li>
+									<li><a href="{{route('online')}}">Online</a></li>
 								</ul>
 								<!-- <div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div> -->
 

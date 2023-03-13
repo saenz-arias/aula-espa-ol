@@ -62,34 +62,6 @@
 	<!-- Header -->
 
 	<header class="header">
-			
-		<!-- Top Bar -->
-		<!-- <div class="top_bar">
-			<div class="top_bar_container">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
-								<ul class="top_bar_contact_list">
-									<li><div class="question">Have any questions?</div></li>
-									<li>
-										<i class="fa fa-phone" aria-hidden="true"></i>
-										<div>001-1234-88888</div>
-									</li>
-									<li>
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
-										<div>info.deercreative@gmail.com</div>
-									</li>
-								</ul>
-								<div class="top_bar_login ml-auto">
-									<div class="login_button"><a href="#">Register or Login</a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>				
-		</div> -->
 
 		<!-- Header Content -->
 		<div class="header_container">
@@ -101,7 +73,7 @@
 								<!-- <a href="#">
 									<div class="logo_text">Unic<span>at</span></div>
 								</a> -->
-								<a class="navbar-brand logo_h" href="{{route('online')}}"
+								<a class="navbar-brand logo_h" href="{{route('landing')}}"
                           ><img src="images/logo_aula.png" style="width: 77px;" id="logo" alt="logo-aula"/></a>
 							</div>
 							<nav class="main_nav_contaner ml-auto">
@@ -112,6 +84,7 @@
 									<li><a href="#upcoming">Upcoming</a></li>
 									<li><a href="https://aula-ec.com/blog/">Blog</a></li>
 									<li><a href="#contact">Contact</a></li>
+									<li><a href="{{route('landing')}}">Online</a></li>
 								</ul>
 								<!-- <div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div> -->
 
@@ -174,6 +147,52 @@
 	
 	<!-- Home -->
 
+
+    <!-- <div class="counter">
+		<div class="counter_background" style="background-color:red"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6" id="contador">
+					<div class="counter_content">
+						<h2 class="counter_title">Next Group Starts On</h2>
+						<div class="counter_text"><p>Learn Spanish now, with the most modern and effective methodology, tested with thousands of students around the world. Learn to speak and think in Spanish naturally and fluently through the exercise of permanent speech.</p></div>
+
+						<div class="row clock_sec clockdiv" id="clockdiv">
+          
+              <div class="col clockinner1 clockinner">
+                <h1 class="days" id="numero"></h1>
+                <span class="smalltext">Days</span>
+              </div>
+              <div class="col clockinner clockinner1">
+                <h1 class="hours" id="numero"></h1>
+                <span class="smalltext">Hours</span>
+              </div>
+              <div class="col clockinner clockinner1">
+                <h1 class="minutes" id="numero"></h1>
+                <span class="smalltext">Mins</span>
+              </div>
+              <div class="col clockinner clockinner1">
+                <h1 class="seconds" id="numero"></h1>
+                <span class="smalltext">Secs</span>
+              </div>
+            </div>			
+					</div>
+				</div>
+			</div>
+		</div>							
+	</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
 	<div class="home">
 		<div class="home_slider_container">
 			
@@ -189,95 +208,14 @@
 								<div class="col text-center">
 									<div class="home_slider_title">Learn Spanish online</div>
 									<div class="home_slider_subtitle">With Quelified native teachers</div>
-									<!-- <div class="home_slider_form_container">
-										<form action="#" id="home_search_form_1" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
-											<div class="d-flex flex-row align-items-center justify-content-start">
-												<input type="search" class="home_search_input" placeholder="Keyword Search" required="required">
-												<select class="dropdown_item_select home_search_input">
-													<option>Category Courses</option>
-													<option>Category</option>
-													<option>Category</option>
-												</select>
-												<select class="dropdown_item_select home_search_input">
-													<option>Select Price Type</option>
-													<option>Price Type</option>
-													<option>Price Type</option>
-												</select>
-											</div>
-											<button type="submit" class="home_search_button">search</button>
-										</form>
-									</div> -->
+									
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<!-- Home Slider Item -->
-				<!-- <div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
-					<div class="home_slider_content">
-						<div class="container">
-							<div class="row">
-								<div class="col text-center">
-									<div class="home_slider_title">The Premium System Education</div>
-									<div class="home_slider_subtitle">Future Of Education Technology</div>
-									<div class="home_slider_form_container">
-										<form action="#" id="home_search_form_2" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
-											<div class="d-flex flex-row align-items-center justify-content-start">
-												<input type="search" class="home_search_input" placeholder="Keyword Search" required="required">
-												<select class="dropdown_item_select home_search_input">
-													<option>Category Courses</option>
-													<option>Category</option>
-													<option>Category</option>
-												</select>
-												<select class="dropdown_item_select home_search_input">
-													<option>Select Price Type</option>
-													<option>Price Type</option>
-													<option>Price Type</option>
-												</select>
-											</div>
-											<button type="submit" class="home_search_button">search</button>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
-
-				<!-- Home Slider Item -->
-				<!-- <div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
-					<div class="home_slider_content">
-						<div class="container">
-							<div class="row">
-								<div class="col text-center">
-									<div class="home_slider_title">The Premium System Education</div>
-									<div class="home_slider_subtitle">Future Of Education Technology</div>
-									<div class="home_slider_form_container">
-										<form action="#" id="home_search_form_3" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
-											<div class="d-flex flex-row align-items-center justify-content-start">
-												<input type="search" class="home_search_input" placeholder="Keyword Search" required="required">
-												<select class="dropdown_item_select home_search_input">
-													<option>Category Courses</option>
-													<option>Category</option>
-													<option>Category</option>
-												</select>
-												<select class="dropdown_item_select home_search_input">
-													<option>Select Price Type</option>
-													<option>Price Type</option>
-													<option>Price Type</option>
-												</select>
-											</div>
-											<button type="submit" class="home_search_button">search</button>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
+				
 
 			</div>
 		</div>
@@ -295,21 +233,7 @@
 					<h2 class="section_title" id="about">Spanish classes Online</h2>
 					<p>Spanish classes live for everyone in the world</p>
 			</div>
-		<!-- <div class="container"> -->
-			<!-- <div class="row">
-				<div class="col">
-					<div class="section_title_container text-center">
-						<h2 class="section_title" id="about">Welcome To Latinamerica</h2>
-						<div class="card-body">
-                  <p class="card-text">Meet Spanish speakers from all over the world, join the second largest community of speakers around the world and connect with more people, expand your links and generate new opportunities wherever you go. Because of this and the quality of our teachers, learning Spanish in Aula-Español is an experience that you should not miss. Our courses are aimed to foreigners of all ages and countries around the world who are visiting the city.</p>
-                <span id="dots">...</span><span id="more">Guayaquil is the second most populated city in Ecuador. Also known as the '' Perla del Pacifico '' is a city that holds a great history and tradition. In addition to this, it occupies a central place in the national economy, much of this economic advance is due to the location of it. We invite you to enjoy all the activities that this city offers, such as learning Spanish.
-                  Our Spanish courses have a practical method where you can improve your oral expression and learn in a fun and entertaining way. There are several good options to learn Spanish in Guayaquil, however, we emphasize in the importance of personalization in the learning process of each student, with excellent results. All this with the confidence of more than 10 years of experience working in collaboration with the Ecuadorian-German Cultural Center of Guayaquil. Just write us and leave us your contact in our social networks or web page. Thank you for coming this far! Contact us!
-                  </span></p>
-                  <button onclick="myFunction()" id="myBtn">Read more</button>
-              </div>
-					</div>
-				</div>
-			</div> -->
+		
 			<div class="row features_row">
 				
 				<!-- Features Item -->
@@ -526,14 +450,7 @@ This introductory course to the Spanish language covers the most basic of everyd
 
 						<!-- Milestones -->
 						<div class="row clock_sec clockdiv" id="clockdiv">
-              <!-- <div class="col-lg-12">
-                <h1 class="mb-3">Register Now</h1>
-                <p>
-                  There is a moment in the life of any aspiring astronomer that
-                  it is time to buy that first telescope. It’s exciting to think
-                  about setting up your own viewing station.
-                </p>
-              </div> -->
+          
               <div class="col clockinner1 clockinner">
                 <h1 class="days" id="numero"></h1>
                 <span class="smalltext">Days</span>
@@ -551,36 +468,11 @@ This introductory course to the Spanish language covers the most basic of everyd
                 <span class="smalltext">Secs</span>
               </div>
             </div>
-
-				
+			
 					</div>
 				</div>
 			</div>
-
-			<!-- <div class="counter_form">
-				<div class="row fill_height">
-					<div class="col fill_height">
-						<form class="counter_form_content d-flex flex-column align-items-center justify-content-center" action="#">
-							<div class="counter_form_title">courses now</div>
-							<input type="text" class="counter_input" placeholder="Your Name:" required="required">
-							<input type="tel" class="counter_input" placeholder="Phone:" required="required">
-							<select name="counter_select" id="counter_select" class="counter_input counter_options">
-								<option>Choose Subject</option>
-								<option>Subject</option>
-								<option>Subject</option>
-								<option>Subject</option>
-							</select>
-							<textarea class="counter_input counter_text_input" placeholder="Message:" required="required"></textarea>
-							<button type="submit" class="counter_form_button">submit now</button>
-						</form>
-					</div>
-				</div>
-			</div> -->
-
-		</div>
-							<!-- <div class="col-md-2" id="teacher">
-								<img src="images/profedunn.png">
-							</div> -->
+		</div>						
 	</div>
 
 	<!-- Events -->
@@ -776,129 +668,7 @@ This introductory course to the Spanish language covers the most basic of everyd
 		</div>
 	</div>
 
-	<!-- Latest News -->
-
-	<!-- <div class="news">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="section_title_container text-center">
-						<h2 class="section_title">Latest News</h2>
-						<div class="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu. Vestibulum feugiat, sapien ultrices fermentum congue, quam velit venenatis sem</p></div>
-					</div>
-				</div>
-			</div>
-			<div class="row news_row">
-				<div class="col-lg-7 news_col">
-					
-					News Post Large
-					<div class="news_post_large_container">
-						<div class="news_post_large">
-							<div class="news_post_image"><img src="images/news_1.jpg" alt=""></div>
-							<div class="news_post_large_title"><a href="blog_single.html">Here’s What You Need to Know About Online Testing for the ACT and SAT</a></div>
-							<div class="news_post_meta">
-								<ul>
-									<li><a href="#">admin</a></li>
-									<li><a href="#">november 11, 2017</a></li>
-								</ul>
-							</div>
-							<div class="news_post_text">
-								<p>Policy analysts generally agree on a need for reform, but not on which path policymakers should take. Can America learn anything from other nations...</p>
-							</div>
-							<div class="news_post_link"><a href="blog_single.html">read more</a></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-5 news_col">
-					<div class="news_posts_small">
-
-						News Posts Small
-						<div class="news_post_small">
-							<div class="news_post_small_title"><a href="blog_single.html">Home-based business insurance issue (Spring 2017 - 2018)</a></div>
-							<div class="news_post_meta">
-								<ul>
-									<li><a href="#">admin</a></li>
-									<li><a href="#">november 11, 2017</a></li>
-								</ul>
-							</div>
-						</div>
-
-						News Posts Small
-						<div class="news_post_small">
-							<div class="news_post_small_title"><a href="blog_single.html">2018 Fall Issue: Credit Card Comparison Site Survey (Summer 2018)</a></div>
-							<div class="news_post_meta">
-								<ul>
-									<li><a href="#">admin</a></li>
-									<li><a href="#">november 11, 2017</a></li>
-								</ul>
-							</div>
-						</div>
-
-						News Posts Small
-						<div class="news_post_small">
-							<div class="news_post_small_title"><a href="blog_single.html">Cuentas de cheques gratuitas una encuesta de Consumer Action</a></div>
-							<div class="news_post_meta">
-								<ul>
-									<li><a href="#">admin</a></li>
-									<li><a href="#">november 11, 2017</a></li>
-								</ul>
-							</div>
-						</div>
-
-						News Posts Small
-						<div class="news_post_small">
-							<div class="news_post_small_title"><a href="blog_single.html">Troubled borrowers have fewer repayment or forgiveness options</a></div>
-							<div class="news_post_meta">
-								<ul>
-									<li><a href="#">admin</a></li>
-									<li><a href="#">november 11, 2017</a></li>
-								</ul>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
 	
-<!-- <section class="mapa-google" id="contact">
-	<h3 class="text-center">Find us in Guayaquil</h3>
-<div class="col-lg-12 m-6">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.956882517339!2d-79.9032613862913!3d-2.1700971984181727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6d7486b130dd%3A0xa0fb510e1ae248ae!2sAula+-+Spanish+Lessons!5e0!3m2!1ses-419!2sec!4v1537142896836" width="100%" height="270px" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-</section> -->
-	
-
-	<!-- Newsletter -->
-
-	<!-- <div class="newsletter">
-		<div class="newsletter_background parallax-window" data-parallax="scroll" data-image-src="images/newsletter.jpg" data-speed="0.8"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="newsletter_container d-flex flex-lg-row flex-column align-items-center justify-content-start"> -->
-
-						<!-- Newsletter Content -->
-						<!-- <div class="newsletter_content text-lg-left text-center">
-							<div class="newsletter_title">sign up for news and offers</div>
-							<div class="newsletter_subtitle">Subcribe to lastest smartphones news & great deals we offer</div>
-						</div> -->
-
-						<!-- Newsletter Form -->
-						<!-- <div class="newsletter_form_container ml-lg-auto">
-							<form action="#" id="newsletter_form" class="newsletter_form d-flex flex-row align-items-center justify-content-center">
-								<input type="email" class="newsletter_input" placeholder="Your Email" required="required">
-								<button type="submit" class="newsletter_button">subscribe</button>
-							</form>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
 
 	<!-- Footer -->
 
